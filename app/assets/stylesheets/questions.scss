@@ -1,0 +1,31 @@
+.btn {
+  background-color: rgb(49, 62, 240);
+  text-decoration: none;
+  border-radius: 5px;
+  border-style: solid ;
+  border-width: thin;
+  border-color: rgb(49, 83, 231);
+  padding: 10px 15px;
+  color: white;
+}
+
+.card {
+  background-color: #FFFFE1;
+  border-left-color: grey;
+  border-left-style: solid;
+  padding-left: 10px;
+}
+
+.list-inline {
+  list-style: none;
+  margin-left: 10px;
+}
+
+.answer {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color : rgb(71, 71, 248);
+}

@@ -1,0 +1,17 @@
+<h1>Stupid Coaching</h1>
+
+  <div>
+    <ul class="card list-inline">
+      <li><%=@question%></li>
+      <li>-You</li>
+    </ul>
+  </div>
+
+    <div>
+    <ul class="card list-inline">
+      <li class="answer"><%=@answer %></li>
+      <li>-Your coach</li>
+    </ul>
+  </div>
+
+  <%= link_to 'Ask a new question', ask_path %>
